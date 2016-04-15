@@ -7,8 +7,8 @@ import traceback
 
 
 # 用户名，密码
-username = u"cwrinsist"
-passwd = u"wenruncwr8610"
+username = u""
+passwd = u""
 # cookies值得自己去找, 下面两个分别是上海, 营口东
 starts = u"%u676D%u5DDE%2CHZH"
 ends = u"%u6D77%u53E3%2CVUQ"
