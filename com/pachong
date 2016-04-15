@@ -1,0 +1,27 @@
+
+import sys
+import requests
+import re
+import urllib
+
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
+def pachong():
+
+
+	html = requests.get('http://www.baidu.com')
+	data = html.text
+	print data
+	try:
+		with open("/home/wisdom/Documents/data.txt","w") as f:
+			f.write(data)
+
+	except IOError,UnicodeEncodeError:
+		print("error is defined")
+if __name__ == "__main__":
+	pachong()
+
+
+
+
